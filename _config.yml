@@ -1,0 +1,5 @@
+domainroot: http://sample.open-wide.net
+cdn_domainroot: https://launchrock-assets.s3.amazonaws.com
+exclude:
+ - README.md
+ - CNAME
