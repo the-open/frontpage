@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>OPEN - The Online Progressive engagement Network</title>
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="title" content="{{ site.meta.title }}" />
   <meta name="description" content="{{ site.meta.description }}" />
@@ -15,50 +16,14 @@
   <meta property="og:url" content="{{ site.domainroot }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:image" content="/static/splash.jpg"/>
-  <link rel="image_src" href="/static/splash.jpg" />
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="image_src" href="/static/splash.jpg" />
+  <link rel="stylesheet" href="/static/site.css" type="text/css" />
   <link rel="shortcut icon" href="/static/favicon.ico" />
 
-  <style>
-  body, p, label, input, select, textarea, h1, h2, h3, h4, h5, h6, div, span {
-    font-family: 'Open Sans', sans-serif;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    margin-top: 0;
-  }
-
-  @media (max-width:767px) {
-    .text-right-sm, .text-left-sm {
-      text-align: center;
-      border-left: none;
-      border-right: none;
-      margin: 20px 20px;
-    }
-    h1 { font-size: 25px; }
-    p { margin-left: 10%; margin-right: 10%; }
-  }
-  @media (min-width:768px) {
-    .text-left-sm { border-left: 1px solid black; }
-    .text-right-sm { border-right: 1px solid black; margin-right: -1px; }
-    section.body { width: 750px; margin: 50px auto; }
-    h1 { font-size: 45px; }
-  }
-  section.top { height: 50vh;
-    background: url('static/splash.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  input, input.btn, #mce-responses .response { margin-bottom: 1em; }
-  </style>
 </head>
-
 <body>
+
 <section class="top">
   <div class="row">
     <div class="col-md-12">
@@ -66,6 +31,7 @@
     </div>
   </div>
 </section>
+
 <section class="body">
   <div class="row">
     <div class="col-sm-6 text-right text-right-sm">
@@ -78,5 +44,7 @@
       {% include mailchimp.html %}
 
     </div>
+  </div>
+</section>
 </body>
 </html>
