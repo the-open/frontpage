@@ -8,8 +8,7 @@ meta:
   keywords: online progressive engagement network political
     non-party independent activism citizen empowermend social climate economic racial justice human rights feminism equality gender sexuality expression non-conforming people-powered grassroots digital petition protest vote volunteer donate
   fb_site_name: The OPEN
-  fb_title: The Online Progressive Engagement Network, a sisterhood of grassroots campaigning organizations from around the world.
+  fb_title: The Online Progressive Engagement Network
 
 exclude:
- - README.md
  - CNAME
